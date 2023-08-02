@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar {
+    background-color: #646a6d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .home-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .bth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .bth button {
+    padding: 20px 70px;
+    margin: 0 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(107, 100, 104);
+    color: #fff;
+  }
+  .btn img{
+    width:20px;
+    height: 20px;
+    padding: 20px;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  .popular-companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .company img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .company-name {
+    color: #4c0df9;
+    font-weight: bold;
+  }
+
+  /* Base CSS styles (for all screen sizes) */
+
+/* Mobile - Up to 768px */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  .nav-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .home-section {
+    padding: 30px;
+  }
+  .home-content {
+    padding: 20px;
+  }
+  .bth {
+    flex-direction: column;
+  }
+  .bth button {
+    padding: 15px 50px;
+    margin: 5px 0;
+    
+  }
+  .btn img{
+    width:flex;
+    height: wrap;
+  }
+  .company img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Tablet - 768px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav-links {
+    margin-right: 20px;
+  }
+  .bth button {
+    padding: 15px 50px;
+    margin: 0 10px;
+  }
+}
+
+/* Desktop - 1025px and above */
+@media screen and (min-width: 1025px) {
+  .navbar {
+    padding: 20px;
+  }
+  .nav-links {
+    margin-right: 40px;
+  }
+  .bth button {
+    padding: 20px 70px;
+    margin: 0 10px;
+  }
+  .company img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+  
+  
+  /* Add your additional styles here */

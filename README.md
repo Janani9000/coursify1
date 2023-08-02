@@ -1,1 +1,1 @@
-# coursify1
+# coursify
